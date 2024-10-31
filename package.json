@@ -1,0 +1,19 @@
+{
+  "name": "mini-message-board",
+  "version": "1.0.0",
+  "description": "Mini Messaging App",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Ramiz Hida",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
