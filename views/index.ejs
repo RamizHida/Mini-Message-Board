@@ -11,6 +11,7 @@
         <li>User: <%= message.user %></li>
         <li>Message: <%= message.text %></li>
         <li>Date: <%= message.added %></li>
+        <a href="/message/<%= message.id %>">View message details</a>
       </div>
       <% }) %>
     </ul>
