@@ -7,6 +7,10 @@ const path = require('node:path');
 const indexRouter = require('./routes/indexRouter');
 const newMessageRouter = require('./routes/newMessageRouter');
 
+// Middleware for parsing incoming requests with URL-encoded payloads
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
 // Set view engine
 app.set('views', path.join(__dirname, '/views'));
 app.set('view engine', 'ejs');

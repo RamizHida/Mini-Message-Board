@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title><%= title%></title>
+  </head>
+  <body>
+    <h1>Welcome to the form page</h1>
+    <form action="/newMessage" method="post">
+      <div>
+        <label for="">author</label>
+        <input name="Author" required />
+      </div>
+      <div>
+        <label for="">Message</label>
+        <textarea name="newMessage" required></textarea>
+      </div>
+      <button>Submit</button>
+    </form>
+
+    <ul></ul>
+  </body>
+</html>
