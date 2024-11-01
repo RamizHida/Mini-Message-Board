@@ -31,6 +31,7 @@ indexRouter.post('/newMessage', (req, res) => {
     user: req.body.Author,
     added: new Date(),
   });
+  // redirect user to home page after submission
   res.status(200).redirect('/');
 });
 
